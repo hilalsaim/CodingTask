@@ -1,6 +1,8 @@
 # Telnyx
 
 This project is console application.
+I used maven in the project. Because it is useful for JARs and other dependencies. 
+We can easily build a project using maven.
 
 ## Getting Started
 
