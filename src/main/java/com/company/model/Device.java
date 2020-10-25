@@ -1,5 +1,7 @@
 package com.company.model;
 
+import java.util.List;
+
 public class Device {
 
     public Device() {
@@ -42,6 +44,14 @@ public class Device {
             primary.addAvailableVlan(vlan);
         } else if(port == 0) {
             secondary.addAvailableVlan(vlan);
+        }
+    }
+
+    public void addVlan(int port, List<Integer> vlans) {
+        if(port == 1) {
+            primary.addAvailableVlan(vlans);
+        } else if(port == 0) {
+            secondary.addAvailableVlan(vlans);
         }
     }
 
