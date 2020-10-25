@@ -1,6 +1,6 @@
 # Telnyx
 
-this project is console application.
+This project is console application.
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ You can run the project directly from the Main class.
 
 ## Project structure
 
-* we have controller and model file
+* We have controller and model file
 * Models in the model file
 * In the project we have 2 model classes named Device and Port
 * Conrollor file contains classes for read and write operations
