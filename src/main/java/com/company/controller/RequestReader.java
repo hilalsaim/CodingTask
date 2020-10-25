@@ -1,7 +1,6 @@
 package com.company.controller;
 
 import com.company.model.Device;
-
 import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
@@ -22,7 +21,6 @@ public class RequestReader {
             br = new BufferedReader(new FileReader(file));
             br.readLine();
             while ((line = br.readLine()) != null) {
-                // use comma as separator
                 String[] list = line.split(cvsSplitBy);
                 int requestsId = Integer.valueOf(list[0]);
                 int redundant = Integer.valueOf(list[1]);

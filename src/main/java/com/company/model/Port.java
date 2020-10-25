@@ -14,7 +14,6 @@ public class Port {
         availableVlan.add(vlan);
     }
 
-
     public List<Integer> getAvailableVlan() {
         return availableVlan;
     }

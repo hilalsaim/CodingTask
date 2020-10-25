@@ -3,7 +3,6 @@ package com.company.model;
 public class Device {
 
     public Device() {
-
     }
 
     public Device(Port primary) {

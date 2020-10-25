@@ -1,7 +1,6 @@
 package com.company.controller;
 
 import com.company.model.Device;
-
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
