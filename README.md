@@ -1,4 +1,4 @@
-# Telnyx
+# Coding Task
 
 This project is console application.
 
